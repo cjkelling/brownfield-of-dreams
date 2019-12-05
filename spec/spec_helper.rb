@@ -1,4 +1,4 @@
-#  
+require 'omniauth-github'
 
 RSpec.configure do |config|
   config.before(:suite) do
@@ -30,4 +30,19 @@ RSpec.configure do |config|
   end
 
   config.shared_context_metadata_behavior = :apply_to_host_groups
+
+  OmniAuth.config.test_mode = true
+
+  OmniAuth.config.mock_auth[:github] = {
+    'provider' => 'github',
+    'uid' => '123545',
+    'user_info' => {
+      'name' => 'mockuser',
+      'password' => 'mock_password'
+    },
+    'credentials' => {
+      'token' => 'mock_token',
+      'secret' => 'mock_secret'
+    }
+  }
 end

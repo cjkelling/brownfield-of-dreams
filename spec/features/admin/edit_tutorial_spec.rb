@@ -1,5 +1,3 @@
-#  
-
 require 'rails_helper'
 
 describe 'An Admin can edit a tutorial' do
