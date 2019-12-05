@@ -9,18 +9,18 @@ describe 'As a visitor' do
     end
       
     it 'I only see tutorials that are not marked as "classroom content"' do
-      expect(page).to have_content(@tutorial_2.title)
-      expect(page).to_not have_content(@tutorial_1.title)
+      expect(page).to have_content(@tutorial_1.title)
+      expect(page).to_not have_content(@tutorial_2.title)
     end
 
     it 'I can click on links to the tutorial show page' do
-      video_2 = create(:video, tutorial_id: @tutorial_2.id)
+      video_1 = create(:video, tutorial_id: @tutorial_1.id)
 
-      click_on @tutorial_2.title
+      click_on @tutorial_1.title
 
-      expect(current_path).to eq(tutorial_path(@tutorial_2))
-      expect(page).to have_content(video_2.title)
-      expect(page).to have_content(@tutorial_2.title)
+      expect(current_path).to eq(tutorial_path(@tutorial_1))
+      expect(page).to have_content(video_1.title)
+      expect(page).to have_content(@tutorial_1.title)
     end
   end
 end
