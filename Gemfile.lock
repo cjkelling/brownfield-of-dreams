@@ -334,7 +334,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   database_cleaner
   factory_bot_rails
-  faker
+  faker (~> 1.9.1)
   faraday
   figaro
   foundation-rails
