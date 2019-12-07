@@ -1,0 +1,74 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.github.com/user/followers?access_token=fa51402df13a16ce5b994404c1b7ce981d34316d
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Fri, 06 Dec 2019 22:01:52 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ratelimit-Limit:
+      - '5000'
+      X-Ratelimit-Remaining:
+      - '4998'
+      X-Ratelimit-Reset:
+      - '1575673312'
+      Cache-Control:
+      - private, max-age=60, s-maxage=60
+      Vary:
+      - Accept, Authorization, Cookie, X-GitHub-OTP
+      Etag:
+      - W/"5cfd2f39c08a3a96e2cd341cf1aa83a7"
+      X-Oauth-Scopes:
+      - ''
+      X-Accepted-Oauth-Scopes:
+      - ''
+      X-Github-Media-Type:
+      - github.v3; format=json
+      Access-Control-Expose-Headers:
+      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
+        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval,
+        X-GitHub-Media-Type
+      Access-Control-Allow-Origin:
+      - "*"
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Frame-Options:
+      - deny
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Referrer-Policy:
+      - origin-when-cross-origin, strict-origin-when-cross-origin
+      Content-Security-Policy:
+      - default-src 'none'
+      X-Github-Request-Id:
+      - C78B:368C:3D641CB:80D6037:5DEACFD0
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"login":"mcat56","id":51488670,"node_id":"MDQ6VXNlcjUxNDg4Njcw","avatar_url":"https://avatars1.githubusercontent.com/u/51488670?v=4","gravatar_id":"","url":"https://api.github.com/users/mcat56","html_url":"https://github.com/mcat56","followers_url":"https://api.github.com/users/mcat56/followers","following_url":"https://api.github.com/users/mcat56/following{/other_user}","gists_url":"https://api.github.com/users/mcat56/gists{/gist_id}","starred_url":"https://api.github.com/users/mcat56/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mcat56/subscriptions","organizations_url":"https://api.github.com/users/mcat56/orgs","repos_url":"https://api.github.com/users/mcat56/repos","events_url":"https://api.github.com/users/mcat56/events{/privacy}","received_events_url":"https://api.github.com/users/mcat56/received_events","type":"User","site_admin":false},{"login":"cjkelling","id":51389815,"node_id":"MDQ6VXNlcjUxMzg5ODE1","avatar_url":"https://avatars2.githubusercontent.com/u/51389815?v=4","gravatar_id":"","url":"https://api.github.com/users/cjkelling","html_url":"https://github.com/cjkelling","followers_url":"https://api.github.com/users/cjkelling/followers","following_url":"https://api.github.com/users/cjkelling/following{/other_user}","gists_url":"https://api.github.com/users/cjkelling/gists{/gist_id}","starred_url":"https://api.github.com/users/cjkelling/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cjkelling/subscriptions","organizations_url":"https://api.github.com/users/cjkelling/orgs","repos_url":"https://api.github.com/users/cjkelling/repos","events_url":"https://api.github.com/users/cjkelling/events{/privacy}","received_events_url":"https://api.github.com/users/cjkelling/received_events","type":"User","site_admin":false}]'
+    http_version: 
+  recorded_at: Fri, 06 Dec 2019 22:01:52 GMT
+recorded_with: VCR 4.0.0
