@@ -1,12 +1,29 @@
 <section class="dashboard-main">
-  <h1> <%= current_user.first_name %>'s Dashboard </h1>
-  <%= link_to 'Connect to Github', github_connect_path  %>
+  <h1> <%= @facade.user_first_name %>'s Dashboard </h1>
+  <% if @facade.connected_to_github? %>
+    <section id='github'>
+      <section id='repositories'>
+      <h3>Repositories<h3>
+        <ul>
+        <% @facade.user_github_repos[0..4].each.with_index do |repo, i| %>
+          <article id='repository-<%= i+1 %>'>
+            <li><%= link_to repo.name, repo.url  %></li>
+          </article>
+        <% end %>
+        </ul>
+      </section>
+    </section>
+    <h3>Followers<h3>
+    <h3>Following<h3>
+  <% else %>
+    <%= link_to 'Connect to Github', github_connect_path  %>
+  <% end %>
 
   <%= button_to 'Log Out', logout_path, method: 'delete', class: "btn btn-primary mb1 bg-teal" %>
   <h3>Account Details</h3>
   <ul>
-    <li> <%= current_user.first_name  %> <%= current_user.last_name %> </li>
-    <li> <%= current_user.email%> </li>
+    <li> <%= @facade.user_first_name  %> <%= @facade.user_last_name %> </li>
+    <li> <%= @facade.user_email%> </li>
   </ul>
   <section>
     <h1>Bookmarked Segments</h1>
