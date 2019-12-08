@@ -39,12 +39,20 @@ RSpec.describe UserDashboardFacade do
     users = @facade.user_github_followers
 
     expect(users.length).to eq(2)
-    
+
     expect(users.first.user_name).to eq('cjkelling')
     expect(users.first.profile_url).to eq('https://github.com/cjkelling')
 
     expect(users.last.user_name).to eq('mcat56')
     expect(users.last.profile_url).to eq('https://github.com/mcat56')
-    
+  end
+
+  it '#user_github_following', :vcr do
+    users = @facade.user_github_following
+
+    expect(users.length).to eq(1)
+
+    expect(users.first.user_name).to eq('cjkelling')
+    expect(users.first.profile_url).to eq('https://github.com/cjkelling')
   end
 end
