@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'GithubService' do
   before :each do
-    @user_token = 'fa51402df13a16ce5b994404c1b7ce981d34316d'
+    @user_token = ENV['GITHUB_TESTING_TOKEN']
   end
 
   it 'can get all repos for a user', :vcr do
