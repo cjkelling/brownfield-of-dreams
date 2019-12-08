@@ -34,6 +34,26 @@ RSpec.describe 'As a logged in user,' do
 
         expect(page).to_not have_css('#respository-6')
       end
+
+      it 'where I can see a list of all users that are following me and a link to their profile', :vcr do
+        within '#follower-1' do
+          expect(page).to have_link('cjkelling', href: 'https://github.com/cjkelling')
+        end
+
+        within '#follower-2' do
+          expect(page).to have_link('mcat56', href: 'https://github.com/mcat56')
+        end
+
+        expect(page).to_not have_css('#follower-3')
+      end
+
+      it 'where I can see a list of all users that I am following and a link to their profile', :vcr do
+        within '#following-1' do
+          expect(page).to have_link('cjkelling', href: 'https://github.com/cjkelling')
+        end
+
+        expect(page).to_not have_css('#following-2')
+      end
     end
   end
 end
