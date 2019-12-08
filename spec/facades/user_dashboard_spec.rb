@@ -28,4 +28,12 @@ RSpec.describe UserDashboardFacade do
     expect(repos[4].name).to eq("battleship")
     expect(repos[4].url).to eq("https://github.com/CoopTang/battleship")
   end
+
+  it '#connected_to_github?', :vcr do
+    user = create(:user)
+    facade_2 = UserDashboardFacade.new(user)
+
+    expect(@facade.connected_to_github?).to eq(true)
+    expect(facade_2.connected_to_github?).to eq(false)
+  end
 end
