@@ -10,11 +10,11 @@ class UserDashboardFacade
     @user_email        = user.email
     @user_token        = user.token
     @user_github_repos = []
-    get_github_repos
+    get_github_repos if user_token
   end
 
   def connected_to_github?
-    user_token
+    user_token ? true : false
   end
 
   private
