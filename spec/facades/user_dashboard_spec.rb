@@ -7,8 +7,6 @@ RSpec.describe UserDashboardFacade do
   end
 
   it '#user_github_repos', :vcr do
-    @facade.user_github_repos
-
     repos = @facade.user_github_repos
 
     expect(repos.length).to eq(30)
@@ -35,5 +33,18 @@ RSpec.describe UserDashboardFacade do
 
     expect(@facade.connected_to_github?).to eq(true)
     expect(facade_2.connected_to_github?).to eq(false)
+  end
+
+  it '#user_github_followers', :vcr do
+    users = @facade.user_github_followers
+
+    expect(users.length).to eq(2)
+    
+    expect(users.first.user_name).to eq('cjkelling')
+    expect(users.first.profile_url).to eq('https://github.com/cjkelling')
+
+    expect(users.last.user_name).to eq('mcat56')
+    expect(users.last.profile_url).to eq('https://github.com/mcat56')
+    
   end
 end
