@@ -21,8 +21,9 @@ class UserDashboardFacade
     repos = GithubService.get_repos(user_token)
     repos.each do |repo|
       @user_github_repos.push(
-        { repo[:name] => repo[:html_url] }
+        Repository.new(repo)
       )
     end
+    @user_github_repos.sort_by!(&:name)
   end
 end
