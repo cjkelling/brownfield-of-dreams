@@ -13,6 +13,10 @@ class UserDashboardFacade
     get_github_repos
   end
 
+  def connected_to_github?
+    user_token
+  end
+
   private
   
   attr_reader :user_token
