@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'As a logged in user,' do
   describe 'when I visit my dashboard' do
-    describe 'I should see a section for Github' do
+    describe 'I should see a section for Github (if I am already connected)' do
       before :each do
         user = create(:user, token: ENV['GITHUB_TESTING_TOKEN'])
         allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
