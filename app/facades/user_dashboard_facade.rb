@@ -48,5 +48,10 @@ class UserDashboardFacade
   end
 
   def get_github_following
+    following = GithubService.get_following(user_token)
+    following.each do |following_data|
+      @user_github_following.push(GithubUser.new(following_data))
+    end
+    @user_github_following.sort_by!(&:user_name)
   end
 end
