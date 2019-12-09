@@ -6,4 +6,10 @@ class User < ApplicationRecord
   validates_presence_of :first_name
   enum role: %i[default admin]
   has_secure_password
+
+  def bookmarked_segments
+    videos.joins(:tutorial)
+          .group('tutorials.id, videos.id')
+          .order('tutorials.id, videos.position')
+  end
 end
