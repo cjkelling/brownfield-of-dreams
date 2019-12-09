@@ -3,6 +3,7 @@ require 'rails_helper'
 describe 'As an Admin' do
   before :each do
     @video = create(:video)
+    @user_video = create(:user_video, video: @video)
     @admin = create(:user, role: 1)
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(@admin)
     visit admin_dashboard_path
