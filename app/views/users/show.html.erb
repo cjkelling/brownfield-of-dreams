@@ -45,5 +45,10 @@
   </ul>
   <section>
     <h1>Bookmarked Segments</h1>
+    <% current_user.bookmarked_segments.each.with_index do |bookmark, i| %>
+      <article id="bookmark-<%= i+1 %>">
+        <p><%= bookmark.title %></p>
+      </article>
+    <% end %>
   </section>
 </section>
