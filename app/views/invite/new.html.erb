@@ -1,0 +1,8 @@
+<h3>Invite a friend to join the Brownfield of Dreams app!</h3>
+
+<%= form_tag '/invite', method: :create do %>
+  <p><%= label_tag :github_handle %>
+  <%= text_field_tag :github_handle %></p>
+
+  <p><%= submit_tag 'Send Invite' %></p>
+<% end %>
