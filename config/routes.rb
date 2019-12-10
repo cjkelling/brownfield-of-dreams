@@ -5,6 +5,7 @@ Rails.application.routes.draw do
       resources :videos, only: [:show]
     end
   end
+  default_url_options host: 'example.com'
 
   root 'welcome#index'
   get 'tags/:tag', to: 'welcome#index', as: :tag
@@ -12,6 +13,9 @@ Rails.application.routes.draw do
 
   get '/auth/github', as: 'github_connect'
   get '/auth/github/callback', to: 'users#update'
+
+  get '/invite/new', to: 'invite#new'
+  post '/invite', to: 'invite#create'
 
   namespace :admin do
     get '/dashboard', to: 'dashboard#show'
