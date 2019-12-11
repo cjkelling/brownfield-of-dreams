@@ -5,7 +5,7 @@ class UserDashboardFacade
               :user_github_repos,
               :user_github_followers,
               :user_github_following
-  
+
   def initialize(user)
     @user_first_name       = user.first_name
     @user_last_name        = user.last_name
@@ -22,7 +22,7 @@ class UserDashboardFacade
   end
 
   private
-  
+
   attr_reader :user_token
 
   def get_github_data
@@ -42,7 +42,8 @@ class UserDashboardFacade
   def get_github_followers
     followers = GithubService.get_followers(user_token)
     followers.each do |follower_data|
-      @user_github_followers.push(GithubUser.new(follower_data))
+      merged_data = GithubService.get_user(user_token, follower_data[:login]).merge(follower_data)
+      @user_github_followers.push(GithubUser.new(merged_data))
     end
     @user_github_followers.sort_by!(&:user_name)
   end

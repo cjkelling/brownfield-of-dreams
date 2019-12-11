@@ -17,12 +17,13 @@ Rails.application.routes.draw do
   get '/invite/new', to: 'invite#new'
   post '/invite', to: 'invite#create'
 
+  post '/friendships', to: 'friendships#create'
+
   namespace :admin do
     get '/dashboard', to: 'dashboard#show'
     resources :tutorials, only: %i[create edit update destroy new] do
       resources :videos, only: [:create]
     end
-    resources :videos, only: %i[edit update destroy]
 
     namespace :api do
       namespace :v1 do
@@ -36,11 +37,6 @@ Rails.application.routes.draw do
   delete '/logout', to: 'sessions#destroy'
 
   get '/dashboard', to: 'users#show'
-  get '/about', to: 'about#show'
-  get '/get_started', to: 'get_started#show'
-
-  # Is this being used?
-  get '/video', to: 'video#show'
 
   resources :users, only: %i[new create update edit]
 

@@ -17,7 +17,10 @@
       <ul>
         <% @facade.user_github_followers.each.with_index do |user, i| %>
           <article id='follower-<%= i+1 %>'>
-            <li><%= link_to user.user_name, user.profile_url  %></li>
+            <li><%= link_to user.user_name, user.profile_url  %>
+            <% if !current_user.friendships.include?(Friendship.find_by(friend_id: User.find_by(email: user.email)&.id)) %>
+              <%= button_to 'Add as Friend', "/friendships?email=#{user.email}" if user.in_system? %></li>
+            <% end %>
           </article>
         <% end %>
       </ul>
@@ -50,6 +53,19 @@
       <article id="bookmark-<%= i+1 %>">
         <p><%= bookmark.title %></p>
       </article>
+    <% end %>
+  </section>
+  <section>
+    <h1>Friendships</h1>
+    <% if current_user.friendships.empty? %>
+      <h3>You are not currently friends with anyone in the system.</h3>
+    <% else %>
+      <h3>You currently have <%= current_user.friendships.count %> friends:</h3>
+      <% current_user.friendships.each do |friendship| %>
+        <ul class="friends">
+          <%= friendship.friend.first_name %>
+        </ul>
+      <% end %>
     <% end %>
   </section>
 </section>

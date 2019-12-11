@@ -25,7 +25,7 @@ describe 'As a registered user' do
       end
 
       it 'I get a notification if the user doesnt have an email address associated with their account', :vcr do
-        fill_in 'github_handle', with: 'cjkelling'
+        fill_in 'github_handle', with: 'not_a_user19'
 
         click_button 'Send Invite'
 
@@ -36,5 +36,3 @@ describe 'As a registered user' do
     end
   end
 end
-
-# ApiQuerier.query_api('https://api.github.com/', 'search/users?q=params[:github_handle]', ENV['GITHUB_TESTING_TOKEN'])
