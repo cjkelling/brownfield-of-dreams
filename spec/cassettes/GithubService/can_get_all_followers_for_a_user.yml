@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Sun, 08 Dec 2019 17:27:22 GMT
+      - Wed, 11 Dec 2019 18:10:04 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4997'
+      - '4859'
       X-Ratelimit-Reset:
-      - '1575829623'
+      - '1576090961'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -65,10 +65,10 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Github-Request-Id:
-      - CC7E:4474:18A1D7D:3BD526A:5DED327A
+      - CF2C:59C3:228269B:5125620:5DF130FC
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"mcat56","id":51488670,"node_id":"MDQ6VXNlcjUxNDg4Njcw","avatar_url":"https://avatars1.githubusercontent.com/u/51488670?v=4","gravatar_id":"","url":"https://api.github.com/users/mcat56","html_url":"https://github.com/mcat56","followers_url":"https://api.github.com/users/mcat56/followers","following_url":"https://api.github.com/users/mcat56/following{/other_user}","gists_url":"https://api.github.com/users/mcat56/gists{/gist_id}","starred_url":"https://api.github.com/users/mcat56/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mcat56/subscriptions","organizations_url":"https://api.github.com/users/mcat56/orgs","repos_url":"https://api.github.com/users/mcat56/repos","events_url":"https://api.github.com/users/mcat56/events{/privacy}","received_events_url":"https://api.github.com/users/mcat56/received_events","type":"User","site_admin":false},{"login":"cjkelling","id":51389815,"node_id":"MDQ6VXNlcjUxMzg5ODE1","avatar_url":"https://avatars2.githubusercontent.com/u/51389815?v=4","gravatar_id":"","url":"https://api.github.com/users/cjkelling","html_url":"https://github.com/cjkelling","followers_url":"https://api.github.com/users/cjkelling/followers","following_url":"https://api.github.com/users/cjkelling/following{/other_user}","gists_url":"https://api.github.com/users/cjkelling/gists{/gist_id}","starred_url":"https://api.github.com/users/cjkelling/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cjkelling/subscriptions","organizations_url":"https://api.github.com/users/cjkelling/orgs","repos_url":"https://api.github.com/users/cjkelling/repos","events_url":"https://api.github.com/users/cjkelling/events{/privacy}","received_events_url":"https://api.github.com/users/cjkelling/received_events","type":"User","site_admin":false}]'
     http_version: 
-  recorded_at: Sun, 08 Dec 2019 17:27:24 GMT
+  recorded_at: Wed, 11 Dec 2019 18:10:03 GMT
 recorded_with: VCR 4.0.0

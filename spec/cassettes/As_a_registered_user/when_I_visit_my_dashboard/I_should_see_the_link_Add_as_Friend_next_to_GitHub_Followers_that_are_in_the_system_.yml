@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 11 Dec 2019 18:22:27 GMT
+      - Wed, 11 Dec 2019 18:17:52 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -31,9 +31,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4999'
+      - '4830'
       X-Ratelimit-Reset:
-      - '1576092147'
+      - '1576090961'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -69,7 +69,7 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Github-Request-Id:
-      - D181:269E:6C657A1:DC76C9B:5DF133E3
+      - D115:19B8:15F50A1:37E8ADA:5DF132CF
     body:
       encoding: ASCII-8BIT
       string: '[{"id":225475524,"node_id":"MDEwOlJlcG9zaXRvcnkyMjU0NzU1MjQ=","name":"brownfield-of-dreams","full_name":"cjkelling/brownfield-of-dreams","private":false,"owner":{"login":"cjkelling","id":51389815,"node_id":"MDQ6VXNlcjUxMzg5ODE1","avatar_url":"https://avatars2.githubusercontent.com/u/51389815?v=4","gravatar_id":"","url":"https://api.github.com/users/cjkelling","html_url":"https://github.com/cjkelling","followers_url":"https://api.github.com/users/cjkelling/followers","following_url":"https://api.github.com/users/cjkelling/following{/other_user}","gists_url":"https://api.github.com/users/cjkelling/gists{/gist_id}","starred_url":"https://api.github.com/users/cjkelling/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cjkelling/subscriptions","organizations_url":"https://api.github.com/users/cjkelling/orgs","repos_url":"https://api.github.com/users/cjkelling/repos","events_url":"https://api.github.com/users/cjkelling/events{/privacy}","received_events_url":"https://api.github.com/users/cjkelling/received_events","type":"User","site_admin":false},"html_url":"https://github.com/cjkelling/brownfield-of-dreams","description":"Rails
@@ -84,7 +84,7 @@ http_interactions:
         final","fork":true,"url":"https://api.github.com/repos/CoopTang/museo_1908","forks_url":"https://api.github.com/repos/CoopTang/museo_1908/forks","keys_url":"https://api.github.com/repos/CoopTang/museo_1908/keys{/key_id}","collaborators_url":"https://api.github.com/repos/CoopTang/museo_1908/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/CoopTang/museo_1908/teams","hooks_url":"https://api.github.com/repos/CoopTang/museo_1908/hooks","issue_events_url":"https://api.github.com/repos/CoopTang/museo_1908/issues/events{/number}","events_url":"https://api.github.com/repos/CoopTang/museo_1908/events","assignees_url":"https://api.github.com/repos/CoopTang/museo_1908/assignees{/user}","branches_url":"https://api.github.com/repos/CoopTang/museo_1908/branches{/branch}","tags_url":"https://api.github.com/repos/CoopTang/museo_1908/tags","blobs_url":"https://api.github.com/repos/CoopTang/museo_1908/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/CoopTang/museo_1908/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/CoopTang/museo_1908/git/refs{/sha}","trees_url":"https://api.github.com/repos/CoopTang/museo_1908/git/trees{/sha}","statuses_url":"https://api.github.com/repos/CoopTang/museo_1908/statuses/{sha}","languages_url":"https://api.github.com/repos/CoopTang/museo_1908/languages","stargazers_url":"https://api.github.com/repos/CoopTang/museo_1908/stargazers","contributors_url":"https://api.github.com/repos/CoopTang/museo_1908/contributors","subscribers_url":"https://api.github.com/repos/CoopTang/museo_1908/subscribers","subscription_url":"https://api.github.com/repos/CoopTang/museo_1908/subscription","commits_url":"https://api.github.com/repos/CoopTang/museo_1908/commits{/sha}","git_commits_url":"https://api.github.com/repos/CoopTang/museo_1908/git/commits{/sha}","comments_url":"https://api.github.com/repos/CoopTang/museo_1908/comments{/number}","issue_comment_url":"https://api.github.com/repos/CoopTang/museo_1908/issues/comments{/number}","contents_url":"https://api.github.com/repos/CoopTang/museo_1908/contents/{+path}","compare_url":"https://api.github.com/repos/CoopTang/museo_1908/compare/{base}...{head}","merges_url":"https://api.github.com/repos/CoopTang/museo_1908/merges","archive_url":"https://api.github.com/repos/CoopTang/museo_1908/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/CoopTang/museo_1908/downloads","issues_url":"https://api.github.com/repos/CoopTang/museo_1908/issues{/number}","pulls_url":"https://api.github.com/repos/CoopTang/museo_1908/pulls{/number}","milestones_url":"https://api.github.com/repos/CoopTang/museo_1908/milestones{/number}","notifications_url":"https://api.github.com/repos/CoopTang/museo_1908/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/CoopTang/museo_1908/labels{/name}","releases_url":"https://api.github.com/repos/CoopTang/museo_1908/releases{/id}","deployments_url":"https://api.github.com/repos/CoopTang/museo_1908/deployments","created_at":"2019-09-17T15:01:03Z","updated_at":"2019-09-17T17:09:06Z","pushed_at":"2019-09-17T17:09:08Z","git_url":"git://github.com/CoopTang/museo_1908.git","ssh_url":"git@github.com:CoopTang/museo_1908.git","clone_url":"https://github.com/CoopTang/museo_1908.git","svn_url":"https://github.com/CoopTang/museo_1908","homepage":null,"size":22,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":false,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":192009537,"node_id":"MDEwOlJlcG9zaXRvcnkxOTIwMDk1Mzc=","name":"my_first_rails_ap","full_name":"CoopTang/my_first_rails_ap","private":false,"owner":{"login":"CoopTang","id":8922930,"node_id":"MDQ6VXNlcjg5MjI5MzA=","avatar_url":"https://avatars2.githubusercontent.com/u/8922930?v=4","gravatar_id":"","url":"https://api.github.com/users/CoopTang","html_url":"https://github.com/CoopTang","followers_url":"https://api.github.com/users/CoopTang/followers","following_url":"https://api.github.com/users/CoopTang/following{/other_user}","gists_url":"https://api.github.com/users/CoopTang/gists{/gist_id}","starred_url":"https://api.github.com/users/CoopTang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CoopTang/subscriptions","organizations_url":"https://api.github.com/users/CoopTang/orgs","repos_url":"https://api.github.com/users/CoopTang/repos","events_url":"https://api.github.com/users/CoopTang/events{/privacy}","received_events_url":"https://api.github.com/users/CoopTang/received_events","type":"User","site_admin":false},"html_url":"https://github.com/CoopTang/my_first_rails_ap","description":null,"fork":false,"url":"https://api.github.com/repos/CoopTang/my_first_rails_ap","forks_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/forks","keys_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/keys{/key_id}","collaborators_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/teams","hooks_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/hooks","issue_events_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/issues/events{/number}","events_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/events","assignees_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/assignees{/user}","branches_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/branches{/branch}","tags_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/tags","blobs_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/git/refs{/sha}","trees_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/git/trees{/sha}","statuses_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/statuses/{sha}","languages_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/languages","stargazers_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/stargazers","contributors_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/contributors","subscribers_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/subscribers","subscription_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/subscription","commits_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/commits{/sha}","git_commits_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/git/commits{/sha}","comments_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/comments{/number}","issue_comment_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/issues/comments{/number}","contents_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/contents/{+path}","compare_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/compare/{base}...{head}","merges_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/merges","archive_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/downloads","issues_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/issues{/number}","pulls_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/pulls{/number}","milestones_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/milestones{/number}","notifications_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/labels{/name}","releases_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/releases{/id}","deployments_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/deployments","created_at":"2019-06-14T21:53:22Z","updated_at":"2019-06-14T22:07:01Z","pushed_at":"2019-12-06T12:57:19Z","git_url":"git://github.com/CoopTang/my_first_rails_ap.git","ssh_url":"git@github.com:CoopTang/my_first_rails_ap.git","clone_url":"https://github.com/CoopTang/my_first_rails_ap.git","svn_url":"https://github.com/CoopTang/my_first_rails_ap","homepage":null,"size":37,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":3,"license":null,"forks":0,"open_issues":3,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":203607784,"node_id":"MDEwOlJlcG9zaXRvcnkyMDM2MDc3ODQ=","name":"open_mic_1908","full_name":"CoopTang/open_mic_1908","private":false,"owner":{"login":"CoopTang","id":8922930,"node_id":"MDQ6VXNlcjg5MjI5MzA=","avatar_url":"https://avatars2.githubusercontent.com/u/8922930?v=4","gravatar_id":"","url":"https://api.github.com/users/CoopTang","html_url":"https://github.com/CoopTang","followers_url":"https://api.github.com/users/CoopTang/followers","following_url":"https://api.github.com/users/CoopTang/following{/other_user}","gists_url":"https://api.github.com/users/CoopTang/gists{/gist_id}","starred_url":"https://api.github.com/users/CoopTang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CoopTang/subscriptions","organizations_url":"https://api.github.com/users/CoopTang/orgs","repos_url":"https://api.github.com/users/CoopTang/repos","events_url":"https://api.github.com/users/CoopTang/events{/privacy}","received_events_url":"https://api.github.com/users/CoopTang/received_events","type":"User","site_admin":false},"html_url":"https://github.com/CoopTang/open_mic_1908","description":"1908
         week 2 independent challenge","fork":true,"url":"https://api.github.com/repos/CoopTang/open_mic_1908","forks_url":"https://api.github.com/repos/CoopTang/open_mic_1908/forks","keys_url":"https://api.github.com/repos/CoopTang/open_mic_1908/keys{/key_id}","collaborators_url":"https://api.github.com/repos/CoopTang/open_mic_1908/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/CoopTang/open_mic_1908/teams","hooks_url":"https://api.github.com/repos/CoopTang/open_mic_1908/hooks","issue_events_url":"https://api.github.com/repos/CoopTang/open_mic_1908/issues/events{/number}","events_url":"https://api.github.com/repos/CoopTang/open_mic_1908/events","assignees_url":"https://api.github.com/repos/CoopTang/open_mic_1908/assignees{/user}","branches_url":"https://api.github.com/repos/CoopTang/open_mic_1908/branches{/branch}","tags_url":"https://api.github.com/repos/CoopTang/open_mic_1908/tags","blobs_url":"https://api.github.com/repos/CoopTang/open_mic_1908/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/CoopTang/open_mic_1908/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/CoopTang/open_mic_1908/git/refs{/sha}","trees_url":"https://api.github.com/repos/CoopTang/open_mic_1908/git/trees{/sha}","statuses_url":"https://api.github.com/repos/CoopTang/open_mic_1908/statuses/{sha}","languages_url":"https://api.github.com/repos/CoopTang/open_mic_1908/languages","stargazers_url":"https://api.github.com/repos/CoopTang/open_mic_1908/stargazers","contributors_url":"https://api.github.com/repos/CoopTang/open_mic_1908/contributors","subscribers_url":"https://api.github.com/repos/CoopTang/open_mic_1908/subscribers","subscription_url":"https://api.github.com/repos/CoopTang/open_mic_1908/subscription","commits_url":"https://api.github.com/repos/CoopTang/open_mic_1908/commits{/sha}","git_commits_url":"https://api.github.com/repos/CoopTang/open_mic_1908/git/commits{/sha}","comments_url":"https://api.github.com/repos/CoopTang/open_mic_1908/comments{/number}","issue_comment_url":"https://api.github.com/repos/CoopTang/open_mic_1908/issues/comments{/number}","contents_url":"https://api.github.com/repos/CoopTang/open_mic_1908/contents/{+path}","compare_url":"https://api.github.com/repos/CoopTang/open_mic_1908/compare/{base}...{head}","merges_url":"https://api.github.com/repos/CoopTang/open_mic_1908/merges","archive_url":"https://api.github.com/repos/CoopTang/open_mic_1908/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/CoopTang/open_mic_1908/downloads","issues_url":"https://api.github.com/repos/CoopTang/open_mic_1908/issues{/number}","pulls_url":"https://api.github.com/repos/CoopTang/open_mic_1908/pulls{/number}","milestones_url":"https://api.github.com/repos/CoopTang/open_mic_1908/milestones{/number}","notifications_url":"https://api.github.com/repos/CoopTang/open_mic_1908/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/CoopTang/open_mic_1908/labels{/name}","releases_url":"https://api.github.com/repos/CoopTang/open_mic_1908/releases{/id}","deployments_url":"https://api.github.com/repos/CoopTang/open_mic_1908/deployments","created_at":"2019-08-21T15:01:47Z","updated_at":"2019-08-21T16:46:50Z","pushed_at":"2019-08-21T16:46:54Z","git_url":"git://github.com/CoopTang/open_mic_1908.git","ssh_url":"git@github.com:CoopTang/open_mic_1908.git","clone_url":"https://github.com/CoopTang/open_mic_1908.git","svn_url":"https://github.com/CoopTang/open_mic_1908","homepage":null,"size":13,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":false,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":222568542,"node_id":"MDEwOlJlcG9zaXRvcnkyMjI1Njg1NDI=","name":"rales_engine","full_name":"CoopTang/rales_engine","private":false,"owner":{"login":"CoopTang","id":8922930,"node_id":"MDQ6VXNlcjg5MjI5MzA=","avatar_url":"https://avatars2.githubusercontent.com/u/8922930?v=4","gravatar_id":"","url":"https://api.github.com/users/CoopTang","html_url":"https://github.com/CoopTang","followers_url":"https://api.github.com/users/CoopTang/followers","following_url":"https://api.github.com/users/CoopTang/following{/other_user}","gists_url":"https://api.github.com/users/CoopTang/gists{/gist_id}","starred_url":"https://api.github.com/users/CoopTang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CoopTang/subscriptions","organizations_url":"https://api.github.com/users/CoopTang/orgs","repos_url":"https://api.github.com/users/CoopTang/repos","events_url":"https://api.github.com/users/CoopTang/events{/privacy}","received_events_url":"https://api.github.com/users/CoopTang/received_events","type":"User","site_admin":false},"html_url":"https://github.com/CoopTang/rales_engine","description":null,"fork":false,"url":"https://api.github.com/repos/CoopTang/rales_engine","forks_url":"https://api.github.com/repos/CoopTang/rales_engine/forks","keys_url":"https://api.github.com/repos/CoopTang/rales_engine/keys{/key_id}","collaborators_url":"https://api.github.com/repos/CoopTang/rales_engine/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/CoopTang/rales_engine/teams","hooks_url":"https://api.github.com/repos/CoopTang/rales_engine/hooks","issue_events_url":"https://api.github.com/repos/CoopTang/rales_engine/issues/events{/number}","events_url":"https://api.github.com/repos/CoopTang/rales_engine/events","assignees_url":"https://api.github.com/repos/CoopTang/rales_engine/assignees{/user}","branches_url":"https://api.github.com/repos/CoopTang/rales_engine/branches{/branch}","tags_url":"https://api.github.com/repos/CoopTang/rales_engine/tags","blobs_url":"https://api.github.com/repos/CoopTang/rales_engine/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/CoopTang/rales_engine/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/CoopTang/rales_engine/git/refs{/sha}","trees_url":"https://api.github.com/repos/CoopTang/rales_engine/git/trees{/sha}","statuses_url":"https://api.github.com/repos/CoopTang/rales_engine/statuses/{sha}","languages_url":"https://api.github.com/repos/CoopTang/rales_engine/languages","stargazers_url":"https://api.github.com/repos/CoopTang/rales_engine/stargazers","contributors_url":"https://api.github.com/repos/CoopTang/rales_engine/contributors","subscribers_url":"https://api.github.com/repos/CoopTang/rales_engine/subscribers","subscription_url":"https://api.github.com/repos/CoopTang/rales_engine/subscription","commits_url":"https://api.github.com/repos/CoopTang/rales_engine/commits{/sha}","git_commits_url":"https://api.github.com/repos/CoopTang/rales_engine/git/commits{/sha}","comments_url":"https://api.github.com/repos/CoopTang/rales_engine/comments{/number}","issue_comment_url":"https://api.github.com/repos/CoopTang/rales_engine/issues/comments{/number}","contents_url":"https://api.github.com/repos/CoopTang/rales_engine/contents/{+path}","compare_url":"https://api.github.com/repos/CoopTang/rales_engine/compare/{base}...{head}","merges_url":"https://api.github.com/repos/CoopTang/rales_engine/merges","archive_url":"https://api.github.com/repos/CoopTang/rales_engine/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/CoopTang/rales_engine/downloads","issues_url":"https://api.github.com/repos/CoopTang/rales_engine/issues{/number}","pulls_url":"https://api.github.com/repos/CoopTang/rales_engine/pulls{/number}","milestones_url":"https://api.github.com/repos/CoopTang/rales_engine/milestones{/number}","notifications_url":"https://api.github.com/repos/CoopTang/rales_engine/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/CoopTang/rales_engine/labels{/name}","releases_url":"https://api.github.com/repos/CoopTang/rales_engine/releases{/id}","deployments_url":"https://api.github.com/repos/CoopTang/rales_engine/deployments","created_at":"2019-11-18T23:59:22Z","updated_at":"2019-12-02T06:39:46Z","pushed_at":"2019-12-06T17:26:13Z","git_url":"git://github.com/CoopTang/rales_engine.git","ssh_url":"git@github.com:CoopTang/rales_engine.git","clone_url":"https://github.com/CoopTang/rales_engine.git","svn_url":"https://github.com/CoopTang/rales_engine","homepage":null,"size":686,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":1,"license":null,"forks":0,"open_issues":1,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":211352717,"node_id":"MDEwOlJlcG9zaXRvcnkyMTEzNTI3MTc=","name":"static_challenges","full_name":"CoopTang/static_challenges","private":false,"owner":{"login":"CoopTang","id":8922930,"node_id":"MDQ6VXNlcjg5MjI5MzA=","avatar_url":"https://avatars2.githubusercontent.com/u/8922930?v=4","gravatar_id":"","url":"https://api.github.com/users/CoopTang","html_url":"https://github.com/CoopTang","followers_url":"https://api.github.com/users/CoopTang/followers","following_url":"https://api.github.com/users/CoopTang/following{/other_user}","gists_url":"https://api.github.com/users/CoopTang/gists{/gist_id}","starred_url":"https://api.github.com/users/CoopTang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CoopTang/subscriptions","organizations_url":"https://api.github.com/users/CoopTang/orgs","repos_url":"https://api.github.com/users/CoopTang/repos","events_url":"https://api.github.com/users/CoopTang/events{/privacy}","received_events_url":"https://api.github.com/users/CoopTang/received_events","type":"User","site_admin":false},"html_url":"https://github.com/CoopTang/static_challenges","description":null,"fork":true,"url":"https://api.github.com/repos/CoopTang/static_challenges","forks_url":"https://api.github.com/repos/CoopTang/static_challenges/forks","keys_url":"https://api.github.com/repos/CoopTang/static_challenges/keys{/key_id}","collaborators_url":"https://api.github.com/repos/CoopTang/static_challenges/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/CoopTang/static_challenges/teams","hooks_url":"https://api.github.com/repos/CoopTang/static_challenges/hooks","issue_events_url":"https://api.github.com/repos/CoopTang/static_challenges/issues/events{/number}","events_url":"https://api.github.com/repos/CoopTang/static_challenges/events","assignees_url":"https://api.github.com/repos/CoopTang/static_challenges/assignees{/user}","branches_url":"https://api.github.com/repos/CoopTang/static_challenges/branches{/branch}","tags_url":"https://api.github.com/repos/CoopTang/static_challenges/tags","blobs_url":"https://api.github.com/repos/CoopTang/static_challenges/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/CoopTang/static_challenges/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/CoopTang/static_challenges/git/refs{/sha}","trees_url":"https://api.github.com/repos/CoopTang/static_challenges/git/trees{/sha}","statuses_url":"https://api.github.com/repos/CoopTang/static_challenges/statuses/{sha}","languages_url":"https://api.github.com/repos/CoopTang/static_challenges/languages","stargazers_url":"https://api.github.com/repos/CoopTang/static_challenges/stargazers","contributors_url":"https://api.github.com/repos/CoopTang/static_challenges/contributors","subscribers_url":"https://api.github.com/repos/CoopTang/static_challenges/subscribers","subscription_url":"https://api.github.com/repos/CoopTang/static_challenges/subscription","commits_url":"https://api.github.com/repos/CoopTang/static_challenges/commits{/sha}","git_commits_url":"https://api.github.com/repos/CoopTang/static_challenges/git/commits{/sha}","comments_url":"https://api.github.com/repos/CoopTang/static_challenges/comments{/number}","issue_comment_url":"https://api.github.com/repos/CoopTang/static_challenges/issues/comments{/number}","contents_url":"https://api.github.com/repos/CoopTang/static_challenges/contents/{+path}","compare_url":"https://api.github.com/repos/CoopTang/static_challenges/compare/{base}...{head}","merges_url":"https://api.github.com/repos/CoopTang/static_challenges/merges","archive_url":"https://api.github.com/repos/CoopTang/static_challenges/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/CoopTang/static_challenges/downloads","issues_url":"https://api.github.com/repos/CoopTang/static_challenges/issues{/number}","pulls_url":"https://api.github.com/repos/CoopTang/static_challenges/pulls{/number}","milestones_url":"https://api.github.com/repos/CoopTang/static_challenges/milestones{/number}","notifications_url":"https://api.github.com/repos/CoopTang/static_challenges/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/CoopTang/static_challenges/labels{/name}","releases_url":"https://api.github.com/repos/CoopTang/static_challenges/releases{/id}","deployments_url":"https://api.github.com/repos/CoopTang/static_challenges/deployments","created_at":"2019-09-27T15:46:11Z","updated_at":"2019-09-28T15:53:44Z","pushed_at":"2019-09-28T15:53:41Z","git_url":"git://github.com/CoopTang/static_challenges.git","ssh_url":"git@github.com:CoopTang/static_challenges.git","clone_url":"https://github.com/CoopTang/static_challenges.git","svn_url":"https://github.com/CoopTang/static_challenges","homepage":null,"size":46795,"stargazers_count":0,"watchers_count":0,"language":"HTML","has_issues":false,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}}]'
     http_version: 
-  recorded_at: Wed, 11 Dec 2019 18:22:26 GMT
+  recorded_at: Wed, 11 Dec 2019 18:17:51 GMT
 - request:
     method: get
     uri: https://api.github.com/user/followers?access_token=<GITHUB_TESTING_TOKEN
@@ -106,7 +106,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 11 Dec 2019 18:22:28 GMT
+      - Wed, 11 Dec 2019 18:17:52 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -116,9 +116,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4998'
+      - '4829'
       X-Ratelimit-Reset:
-      - '1576092147'
+      - '1576090961'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -150,12 +150,12 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Github-Request-Id:
-      - D182:3CBA:81344F1:F5A69A8:5DF133E3
+      - D116:2726:E20A8F:2419447:5DF132D0
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"mcat56","id":51488670,"node_id":"MDQ6VXNlcjUxNDg4Njcw","avatar_url":"https://avatars1.githubusercontent.com/u/51488670?v=4","gravatar_id":"","url":"https://api.github.com/users/mcat56","html_url":"https://github.com/mcat56","followers_url":"https://api.github.com/users/mcat56/followers","following_url":"https://api.github.com/users/mcat56/following{/other_user}","gists_url":"https://api.github.com/users/mcat56/gists{/gist_id}","starred_url":"https://api.github.com/users/mcat56/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mcat56/subscriptions","organizations_url":"https://api.github.com/users/mcat56/orgs","repos_url":"https://api.github.com/users/mcat56/repos","events_url":"https://api.github.com/users/mcat56/events{/privacy}","received_events_url":"https://api.github.com/users/mcat56/received_events","type":"User","site_admin":false},{"login":"cjkelling","id":51389815,"node_id":"MDQ6VXNlcjUxMzg5ODE1","avatar_url":"https://avatars2.githubusercontent.com/u/51389815?v=4","gravatar_id":"","url":"https://api.github.com/users/cjkelling","html_url":"https://github.com/cjkelling","followers_url":"https://api.github.com/users/cjkelling/followers","following_url":"https://api.github.com/users/cjkelling/following{/other_user}","gists_url":"https://api.github.com/users/cjkelling/gists{/gist_id}","starred_url":"https://api.github.com/users/cjkelling/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cjkelling/subscriptions","organizations_url":"https://api.github.com/users/cjkelling/orgs","repos_url":"https://api.github.com/users/cjkelling/repos","events_url":"https://api.github.com/users/cjkelling/events{/privacy}","received_events_url":"https://api.github.com/users/cjkelling/received_events","type":"User","site_admin":false}]'
     http_version: 
-  recorded_at: Wed, 11 Dec 2019 18:22:27 GMT
+  recorded_at: Wed, 11 Dec 2019 18:17:51 GMT
 - request:
     method: get
     uri: https://api.github.com/users/mcat56?access_token=<GITHUB_TESTING_TOKEN
@@ -177,7 +177,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 11 Dec 2019 18:22:28 GMT
+      - Wed, 11 Dec 2019 18:17:53 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -187,9 +187,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4997'
+      - '4828'
       X-Ratelimit-Reset:
-      - '1576092147'
+      - '1576090961'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -223,14 +223,14 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Github-Request-Id:
-      - D183:32DF:1FA762B:4D47CFB:5DF133E4
+      - D117:2C4E:223F5E1:4FF6510:5DF132D0
     body:
       encoding: ASCII-8BIT
       string: '{"login":"mcat56","id":51488670,"node_id":"MDQ6VXNlcjUxNDg4Njcw","avatar_url":"https://avatars1.githubusercontent.com/u/51488670?v=4","gravatar_id":"","url":"https://api.github.com/users/mcat56","html_url":"https://github.com/mcat56","followers_url":"https://api.github.com/users/mcat56/followers","following_url":"https://api.github.com/users/mcat56/following{/other_user}","gists_url":"https://api.github.com/users/mcat56/gists{/gist_id}","starred_url":"https://api.github.com/users/mcat56/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mcat56/subscriptions","organizations_url":"https://api.github.com/users/mcat56/orgs","repos_url":"https://api.github.com/users/mcat56/repos","events_url":"https://api.github.com/users/mcat56/events{/privacy}","received_events_url":"https://api.github.com/users/mcat56/received_events","type":"User","site_admin":false,"name":"Mary
         Lang","company":"Turing School of Software Development","blog":"","location":"Denver,
         CO","email":"mcl86@cornell.edu","hireable":null,"bio":null,"public_repos":42,"public_gists":16,"followers":2,"following":9,"created_at":"2019-06-07T16:12:29Z","updated_at":"2019-12-10T17:16:26Z"}'
     http_version: 
-  recorded_at: Wed, 11 Dec 2019 18:22:27 GMT
+  recorded_at: Wed, 11 Dec 2019 18:17:52 GMT
 - request:
     method: get
     uri: https://api.github.com/users/cjkelling?access_token=<GITHUB_TESTING_TOKEN
@@ -252,7 +252,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 11 Dec 2019 18:22:28 GMT
+      - Wed, 11 Dec 2019 18:17:53 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -262,9 +262,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4996'
+      - '4827'
       X-Ratelimit-Reset:
-      - '1576092147'
+      - '1576090961'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -298,13 +298,13 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Github-Request-Id:
-      - D184:6E56:743B7B5:EB77B8C:5DF133E4
+      - D118:3ACB:24928C9:5451285:5DF132D1
     body:
       encoding: ASCII-8BIT
       string: '{"login":"cjkelling","id":51389815,"node_id":"MDQ6VXNlcjUxMzg5ODE1","avatar_url":"https://avatars2.githubusercontent.com/u/51389815?v=4","gravatar_id":"","url":"https://api.github.com/users/cjkelling","html_url":"https://github.com/cjkelling","followers_url":"https://api.github.com/users/cjkelling/followers","following_url":"https://api.github.com/users/cjkelling/following{/other_user}","gists_url":"https://api.github.com/users/cjkelling/gists{/gist_id}","starred_url":"https://api.github.com/users/cjkelling/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cjkelling/subscriptions","organizations_url":"https://api.github.com/users/cjkelling/orgs","repos_url":"https://api.github.com/users/cjkelling/repos","events_url":"https://api.github.com/users/cjkelling/events{/privacy}","received_events_url":"https://api.github.com/users/cjkelling/received_events","type":"User","site_admin":false,"name":"Christopher
         Kelling","company":null,"blog":"","location":null,"email":"cj.kelling88@gmail.com","hireable":null,"bio":null,"public_repos":35,"public_gists":4,"followers":1,"following":1,"created_at":"2019-06-05T01:20:23Z","updated_at":"2019-12-11T18:07:34Z"}'
     http_version: 
-  recorded_at: Wed, 11 Dec 2019 18:22:27 GMT
+  recorded_at: Wed, 11 Dec 2019 18:17:52 GMT
 - request:
     method: get
     uri: https://api.github.com/user/following?access_token=<GITHUB_TESTING_TOKEN
@@ -326,7 +326,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 11 Dec 2019 18:22:29 GMT
+      - Wed, 11 Dec 2019 18:17:54 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -336,9 +336,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4995'
+      - '4826'
       X-Ratelimit-Reset:
-      - '1576092147'
+      - '1576090961'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -370,86 +370,12 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Github-Request-Id:
-      - D185:401D:5CAA2D0:C1E1A44:5DF133E4
+      - D119:66EC:2268052:50E558C:5DF132D1
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"cjkelling","id":51389815,"node_id":"MDQ6VXNlcjUxMzg5ODE1","avatar_url":"https://avatars2.githubusercontent.com/u/51389815?v=4","gravatar_id":"","url":"https://api.github.com/users/cjkelling","html_url":"https://github.com/cjkelling","followers_url":"https://api.github.com/users/cjkelling/followers","following_url":"https://api.github.com/users/cjkelling/following{/other_user}","gists_url":"https://api.github.com/users/cjkelling/gists{/gist_id}","starred_url":"https://api.github.com/users/cjkelling/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cjkelling/subscriptions","organizations_url":"https://api.github.com/users/cjkelling/orgs","repos_url":"https://api.github.com/users/cjkelling/repos","events_url":"https://api.github.com/users/cjkelling/events{/privacy}","received_events_url":"https://api.github.com/users/cjkelling/received_events","type":"User","site_admin":false}]'
     http_version: 
-  recorded_at: Wed, 11 Dec 2019 18:22:27 GMT
-- request:
-    method: get
-    uri: https://api.github.com/users/CoopTang?access_token=<GITHUB_TESTING_TOKEN
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v0.12.2
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Server:
-      - GitHub.com
-      Date:
-      - Wed, 11 Dec 2019 18:22:29 GMT
-      Content-Type:
-      - application/json; charset=utf-8
-      Transfer-Encoding:
-      - chunked
-      Status:
-      - 200 OK
-      X-Ratelimit-Limit:
-      - '5000'
-      X-Ratelimit-Remaining:
-      - '4994'
-      X-Ratelimit-Reset:
-      - '1576092147'
-      Cache-Control:
-      - private, max-age=60, s-maxage=60
-      Vary:
-      - Accept, Authorization, Cookie, X-GitHub-OTP
-      Etag:
-      - W/"cbfbe7d932570daecd0fa2f9c4945c06"
-      Last-Modified:
-      - Tue, 10 Dec 2019 21:47:44 GMT
-      X-Oauth-Scopes:
-      - ''
-      X-Accepted-Oauth-Scopes:
-      - ''
-      X-Github-Media-Type:
-      - github.v3; format=json
-      Access-Control-Expose-Headers:
-      - ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining,
-        X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval,
-        X-GitHub-Media-Type
-      Access-Control-Allow-Origin:
-      - "*"
-      Strict-Transport-Security:
-      - max-age=31536000; includeSubdomains; preload
-      X-Frame-Options:
-      - deny
-      X-Content-Type-Options:
-      - nosniff
-      X-Xss-Protection:
-      - 1; mode=block
-      Referrer-Policy:
-      - origin-when-cross-origin, strict-origin-when-cross-origin
-      Content-Security-Policy:
-      - default-src 'none'
-      X-Github-Request-Id:
-      - D186:0623:3C6FEBE:8B82C10:5DF133E5
-    body:
-      encoding: ASCII-8BIT
-      string: '{"login":"CoopTang","id":8922930,"node_id":"MDQ6VXNlcjg5MjI5MzA=","avatar_url":"https://avatars2.githubusercontent.com/u/8922930?v=4","gravatar_id":"","url":"https://api.github.com/users/CoopTang","html_url":"https://github.com/CoopTang","followers_url":"https://api.github.com/users/CoopTang/followers","following_url":"https://api.github.com/users/CoopTang/following{/other_user}","gists_url":"https://api.github.com/users/CoopTang/gists{/gist_id}","starred_url":"https://api.github.com/users/CoopTang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CoopTang/subscriptions","organizations_url":"https://api.github.com/users/CoopTang/orgs","repos_url":"https://api.github.com/users/CoopTang/repos","events_url":"https://api.github.com/users/CoopTang/events{/privacy}","received_events_url":"https://api.github.com/users/CoopTang/received_events","type":"User","site_admin":false,"name":"Michael
-        Cooper","company":null,"blog":"","location":null,"email":"macoop2363@gmail.com","hireable":null,"bio":null,"public_repos":31,"public_gists":12,"followers":2,"following":1,"created_at":"2014-09-26T01:51:46Z","updated_at":"2019-12-10T21:47:44Z"}'
-    http_version: 
-  recorded_at: Wed, 11 Dec 2019 18:22:28 GMT
+  recorded_at: Wed, 11 Dec 2019 18:17:53 GMT
 - request:
     method: get
     uri: https://api.github.com/user/repos?access_token=<GITHUB_TESTING_TOKEN
@@ -471,7 +397,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 11 Dec 2019 18:22:30 GMT
+      - Wed, 11 Dec 2019 18:17:56 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -481,9 +407,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4993'
+      - '4825'
       X-Ratelimit-Reset:
-      - '1576092147'
+      - '1576090961'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -519,7 +445,7 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Github-Request-Id:
-      - D187:233B:217206F:552185F:5DF133E5
+      - D11A:6848:E9B3BE:249C396:5DF132D3
     body:
       encoding: ASCII-8BIT
       string: '[{"id":225475524,"node_id":"MDEwOlJlcG9zaXRvcnkyMjU0NzU1MjQ=","name":"brownfield-of-dreams","full_name":"cjkelling/brownfield-of-dreams","private":false,"owner":{"login":"cjkelling","id":51389815,"node_id":"MDQ6VXNlcjUxMzg5ODE1","avatar_url":"https://avatars2.githubusercontent.com/u/51389815?v=4","gravatar_id":"","url":"https://api.github.com/users/cjkelling","html_url":"https://github.com/cjkelling","followers_url":"https://api.github.com/users/cjkelling/followers","following_url":"https://api.github.com/users/cjkelling/following{/other_user}","gists_url":"https://api.github.com/users/cjkelling/gists{/gist_id}","starred_url":"https://api.github.com/users/cjkelling/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cjkelling/subscriptions","organizations_url":"https://api.github.com/users/cjkelling/orgs","repos_url":"https://api.github.com/users/cjkelling/repos","events_url":"https://api.github.com/users/cjkelling/events{/privacy}","received_events_url":"https://api.github.com/users/cjkelling/received_events","type":"User","site_admin":false},"html_url":"https://github.com/cjkelling/brownfield-of-dreams","description":"Rails
@@ -534,7 +460,7 @@ http_interactions:
         final","fork":true,"url":"https://api.github.com/repos/CoopTang/museo_1908","forks_url":"https://api.github.com/repos/CoopTang/museo_1908/forks","keys_url":"https://api.github.com/repos/CoopTang/museo_1908/keys{/key_id}","collaborators_url":"https://api.github.com/repos/CoopTang/museo_1908/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/CoopTang/museo_1908/teams","hooks_url":"https://api.github.com/repos/CoopTang/museo_1908/hooks","issue_events_url":"https://api.github.com/repos/CoopTang/museo_1908/issues/events{/number}","events_url":"https://api.github.com/repos/CoopTang/museo_1908/events","assignees_url":"https://api.github.com/repos/CoopTang/museo_1908/assignees{/user}","branches_url":"https://api.github.com/repos/CoopTang/museo_1908/branches{/branch}","tags_url":"https://api.github.com/repos/CoopTang/museo_1908/tags","blobs_url":"https://api.github.com/repos/CoopTang/museo_1908/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/CoopTang/museo_1908/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/CoopTang/museo_1908/git/refs{/sha}","trees_url":"https://api.github.com/repos/CoopTang/museo_1908/git/trees{/sha}","statuses_url":"https://api.github.com/repos/CoopTang/museo_1908/statuses/{sha}","languages_url":"https://api.github.com/repos/CoopTang/museo_1908/languages","stargazers_url":"https://api.github.com/repos/CoopTang/museo_1908/stargazers","contributors_url":"https://api.github.com/repos/CoopTang/museo_1908/contributors","subscribers_url":"https://api.github.com/repos/CoopTang/museo_1908/subscribers","subscription_url":"https://api.github.com/repos/CoopTang/museo_1908/subscription","commits_url":"https://api.github.com/repos/CoopTang/museo_1908/commits{/sha}","git_commits_url":"https://api.github.com/repos/CoopTang/museo_1908/git/commits{/sha}","comments_url":"https://api.github.com/repos/CoopTang/museo_1908/comments{/number}","issue_comment_url":"https://api.github.com/repos/CoopTang/museo_1908/issues/comments{/number}","contents_url":"https://api.github.com/repos/CoopTang/museo_1908/contents/{+path}","compare_url":"https://api.github.com/repos/CoopTang/museo_1908/compare/{base}...{head}","merges_url":"https://api.github.com/repos/CoopTang/museo_1908/merges","archive_url":"https://api.github.com/repos/CoopTang/museo_1908/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/CoopTang/museo_1908/downloads","issues_url":"https://api.github.com/repos/CoopTang/museo_1908/issues{/number}","pulls_url":"https://api.github.com/repos/CoopTang/museo_1908/pulls{/number}","milestones_url":"https://api.github.com/repos/CoopTang/museo_1908/milestones{/number}","notifications_url":"https://api.github.com/repos/CoopTang/museo_1908/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/CoopTang/museo_1908/labels{/name}","releases_url":"https://api.github.com/repos/CoopTang/museo_1908/releases{/id}","deployments_url":"https://api.github.com/repos/CoopTang/museo_1908/deployments","created_at":"2019-09-17T15:01:03Z","updated_at":"2019-09-17T17:09:06Z","pushed_at":"2019-09-17T17:09:08Z","git_url":"git://github.com/CoopTang/museo_1908.git","ssh_url":"git@github.com:CoopTang/museo_1908.git","clone_url":"https://github.com/CoopTang/museo_1908.git","svn_url":"https://github.com/CoopTang/museo_1908","homepage":null,"size":22,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":false,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":192009537,"node_id":"MDEwOlJlcG9zaXRvcnkxOTIwMDk1Mzc=","name":"my_first_rails_ap","full_name":"CoopTang/my_first_rails_ap","private":false,"owner":{"login":"CoopTang","id":8922930,"node_id":"MDQ6VXNlcjg5MjI5MzA=","avatar_url":"https://avatars2.githubusercontent.com/u/8922930?v=4","gravatar_id":"","url":"https://api.github.com/users/CoopTang","html_url":"https://github.com/CoopTang","followers_url":"https://api.github.com/users/CoopTang/followers","following_url":"https://api.github.com/users/CoopTang/following{/other_user}","gists_url":"https://api.github.com/users/CoopTang/gists{/gist_id}","starred_url":"https://api.github.com/users/CoopTang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CoopTang/subscriptions","organizations_url":"https://api.github.com/users/CoopTang/orgs","repos_url":"https://api.github.com/users/CoopTang/repos","events_url":"https://api.github.com/users/CoopTang/events{/privacy}","received_events_url":"https://api.github.com/users/CoopTang/received_events","type":"User","site_admin":false},"html_url":"https://github.com/CoopTang/my_first_rails_ap","description":null,"fork":false,"url":"https://api.github.com/repos/CoopTang/my_first_rails_ap","forks_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/forks","keys_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/keys{/key_id}","collaborators_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/teams","hooks_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/hooks","issue_events_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/issues/events{/number}","events_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/events","assignees_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/assignees{/user}","branches_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/branches{/branch}","tags_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/tags","blobs_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/git/refs{/sha}","trees_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/git/trees{/sha}","statuses_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/statuses/{sha}","languages_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/languages","stargazers_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/stargazers","contributors_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/contributors","subscribers_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/subscribers","subscription_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/subscription","commits_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/commits{/sha}","git_commits_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/git/commits{/sha}","comments_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/comments{/number}","issue_comment_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/issues/comments{/number}","contents_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/contents/{+path}","compare_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/compare/{base}...{head}","merges_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/merges","archive_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/downloads","issues_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/issues{/number}","pulls_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/pulls{/number}","milestones_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/milestones{/number}","notifications_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/labels{/name}","releases_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/releases{/id}","deployments_url":"https://api.github.com/repos/CoopTang/my_first_rails_ap/deployments","created_at":"2019-06-14T21:53:22Z","updated_at":"2019-06-14T22:07:01Z","pushed_at":"2019-12-06T12:57:19Z","git_url":"git://github.com/CoopTang/my_first_rails_ap.git","ssh_url":"git@github.com:CoopTang/my_first_rails_ap.git","clone_url":"https://github.com/CoopTang/my_first_rails_ap.git","svn_url":"https://github.com/CoopTang/my_first_rails_ap","homepage":null,"size":37,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":3,"license":null,"forks":0,"open_issues":3,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":203607784,"node_id":"MDEwOlJlcG9zaXRvcnkyMDM2MDc3ODQ=","name":"open_mic_1908","full_name":"CoopTang/open_mic_1908","private":false,"owner":{"login":"CoopTang","id":8922930,"node_id":"MDQ6VXNlcjg5MjI5MzA=","avatar_url":"https://avatars2.githubusercontent.com/u/8922930?v=4","gravatar_id":"","url":"https://api.github.com/users/CoopTang","html_url":"https://github.com/CoopTang","followers_url":"https://api.github.com/users/CoopTang/followers","following_url":"https://api.github.com/users/CoopTang/following{/other_user}","gists_url":"https://api.github.com/users/CoopTang/gists{/gist_id}","starred_url":"https://api.github.com/users/CoopTang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CoopTang/subscriptions","organizations_url":"https://api.github.com/users/CoopTang/orgs","repos_url":"https://api.github.com/users/CoopTang/repos","events_url":"https://api.github.com/users/CoopTang/events{/privacy}","received_events_url":"https://api.github.com/users/CoopTang/received_events","type":"User","site_admin":false},"html_url":"https://github.com/CoopTang/open_mic_1908","description":"1908
         week 2 independent challenge","fork":true,"url":"https://api.github.com/repos/CoopTang/open_mic_1908","forks_url":"https://api.github.com/repos/CoopTang/open_mic_1908/forks","keys_url":"https://api.github.com/repos/CoopTang/open_mic_1908/keys{/key_id}","collaborators_url":"https://api.github.com/repos/CoopTang/open_mic_1908/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/CoopTang/open_mic_1908/teams","hooks_url":"https://api.github.com/repos/CoopTang/open_mic_1908/hooks","issue_events_url":"https://api.github.com/repos/CoopTang/open_mic_1908/issues/events{/number}","events_url":"https://api.github.com/repos/CoopTang/open_mic_1908/events","assignees_url":"https://api.github.com/repos/CoopTang/open_mic_1908/assignees{/user}","branches_url":"https://api.github.com/repos/CoopTang/open_mic_1908/branches{/branch}","tags_url":"https://api.github.com/repos/CoopTang/open_mic_1908/tags","blobs_url":"https://api.github.com/repos/CoopTang/open_mic_1908/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/CoopTang/open_mic_1908/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/CoopTang/open_mic_1908/git/refs{/sha}","trees_url":"https://api.github.com/repos/CoopTang/open_mic_1908/git/trees{/sha}","statuses_url":"https://api.github.com/repos/CoopTang/open_mic_1908/statuses/{sha}","languages_url":"https://api.github.com/repos/CoopTang/open_mic_1908/languages","stargazers_url":"https://api.github.com/repos/CoopTang/open_mic_1908/stargazers","contributors_url":"https://api.github.com/repos/CoopTang/open_mic_1908/contributors","subscribers_url":"https://api.github.com/repos/CoopTang/open_mic_1908/subscribers","subscription_url":"https://api.github.com/repos/CoopTang/open_mic_1908/subscription","commits_url":"https://api.github.com/repos/CoopTang/open_mic_1908/commits{/sha}","git_commits_url":"https://api.github.com/repos/CoopTang/open_mic_1908/git/commits{/sha}","comments_url":"https://api.github.com/repos/CoopTang/open_mic_1908/comments{/number}","issue_comment_url":"https://api.github.com/repos/CoopTang/open_mic_1908/issues/comments{/number}","contents_url":"https://api.github.com/repos/CoopTang/open_mic_1908/contents/{+path}","compare_url":"https://api.github.com/repos/CoopTang/open_mic_1908/compare/{base}...{head}","merges_url":"https://api.github.com/repos/CoopTang/open_mic_1908/merges","archive_url":"https://api.github.com/repos/CoopTang/open_mic_1908/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/CoopTang/open_mic_1908/downloads","issues_url":"https://api.github.com/repos/CoopTang/open_mic_1908/issues{/number}","pulls_url":"https://api.github.com/repos/CoopTang/open_mic_1908/pulls{/number}","milestones_url":"https://api.github.com/repos/CoopTang/open_mic_1908/milestones{/number}","notifications_url":"https://api.github.com/repos/CoopTang/open_mic_1908/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/CoopTang/open_mic_1908/labels{/name}","releases_url":"https://api.github.com/repos/CoopTang/open_mic_1908/releases{/id}","deployments_url":"https://api.github.com/repos/CoopTang/open_mic_1908/deployments","created_at":"2019-08-21T15:01:47Z","updated_at":"2019-08-21T16:46:50Z","pushed_at":"2019-08-21T16:46:54Z","git_url":"git://github.com/CoopTang/open_mic_1908.git","ssh_url":"git@github.com:CoopTang/open_mic_1908.git","clone_url":"https://github.com/CoopTang/open_mic_1908.git","svn_url":"https://github.com/CoopTang/open_mic_1908","homepage":null,"size":13,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":false,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":222568542,"node_id":"MDEwOlJlcG9zaXRvcnkyMjI1Njg1NDI=","name":"rales_engine","full_name":"CoopTang/rales_engine","private":false,"owner":{"login":"CoopTang","id":8922930,"node_id":"MDQ6VXNlcjg5MjI5MzA=","avatar_url":"https://avatars2.githubusercontent.com/u/8922930?v=4","gravatar_id":"","url":"https://api.github.com/users/CoopTang","html_url":"https://github.com/CoopTang","followers_url":"https://api.github.com/users/CoopTang/followers","following_url":"https://api.github.com/users/CoopTang/following{/other_user}","gists_url":"https://api.github.com/users/CoopTang/gists{/gist_id}","starred_url":"https://api.github.com/users/CoopTang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CoopTang/subscriptions","organizations_url":"https://api.github.com/users/CoopTang/orgs","repos_url":"https://api.github.com/users/CoopTang/repos","events_url":"https://api.github.com/users/CoopTang/events{/privacy}","received_events_url":"https://api.github.com/users/CoopTang/received_events","type":"User","site_admin":false},"html_url":"https://github.com/CoopTang/rales_engine","description":null,"fork":false,"url":"https://api.github.com/repos/CoopTang/rales_engine","forks_url":"https://api.github.com/repos/CoopTang/rales_engine/forks","keys_url":"https://api.github.com/repos/CoopTang/rales_engine/keys{/key_id}","collaborators_url":"https://api.github.com/repos/CoopTang/rales_engine/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/CoopTang/rales_engine/teams","hooks_url":"https://api.github.com/repos/CoopTang/rales_engine/hooks","issue_events_url":"https://api.github.com/repos/CoopTang/rales_engine/issues/events{/number}","events_url":"https://api.github.com/repos/CoopTang/rales_engine/events","assignees_url":"https://api.github.com/repos/CoopTang/rales_engine/assignees{/user}","branches_url":"https://api.github.com/repos/CoopTang/rales_engine/branches{/branch}","tags_url":"https://api.github.com/repos/CoopTang/rales_engine/tags","blobs_url":"https://api.github.com/repos/CoopTang/rales_engine/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/CoopTang/rales_engine/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/CoopTang/rales_engine/git/refs{/sha}","trees_url":"https://api.github.com/repos/CoopTang/rales_engine/git/trees{/sha}","statuses_url":"https://api.github.com/repos/CoopTang/rales_engine/statuses/{sha}","languages_url":"https://api.github.com/repos/CoopTang/rales_engine/languages","stargazers_url":"https://api.github.com/repos/CoopTang/rales_engine/stargazers","contributors_url":"https://api.github.com/repos/CoopTang/rales_engine/contributors","subscribers_url":"https://api.github.com/repos/CoopTang/rales_engine/subscribers","subscription_url":"https://api.github.com/repos/CoopTang/rales_engine/subscription","commits_url":"https://api.github.com/repos/CoopTang/rales_engine/commits{/sha}","git_commits_url":"https://api.github.com/repos/CoopTang/rales_engine/git/commits{/sha}","comments_url":"https://api.github.com/repos/CoopTang/rales_engine/comments{/number}","issue_comment_url":"https://api.github.com/repos/CoopTang/rales_engine/issues/comments{/number}","contents_url":"https://api.github.com/repos/CoopTang/rales_engine/contents/{+path}","compare_url":"https://api.github.com/repos/CoopTang/rales_engine/compare/{base}...{head}","merges_url":"https://api.github.com/repos/CoopTang/rales_engine/merges","archive_url":"https://api.github.com/repos/CoopTang/rales_engine/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/CoopTang/rales_engine/downloads","issues_url":"https://api.github.com/repos/CoopTang/rales_engine/issues{/number}","pulls_url":"https://api.github.com/repos/CoopTang/rales_engine/pulls{/number}","milestones_url":"https://api.github.com/repos/CoopTang/rales_engine/milestones{/number}","notifications_url":"https://api.github.com/repos/CoopTang/rales_engine/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/CoopTang/rales_engine/labels{/name}","releases_url":"https://api.github.com/repos/CoopTang/rales_engine/releases{/id}","deployments_url":"https://api.github.com/repos/CoopTang/rales_engine/deployments","created_at":"2019-11-18T23:59:22Z","updated_at":"2019-12-02T06:39:46Z","pushed_at":"2019-12-06T17:26:13Z","git_url":"git://github.com/CoopTang/rales_engine.git","ssh_url":"git@github.com:CoopTang/rales_engine.git","clone_url":"https://github.com/CoopTang/rales_engine.git","svn_url":"https://github.com/CoopTang/rales_engine","homepage":null,"size":686,"stargazers_count":0,"watchers_count":0,"language":"Ruby","has_issues":true,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":1,"license":null,"forks":0,"open_issues":1,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}},{"id":211352717,"node_id":"MDEwOlJlcG9zaXRvcnkyMTEzNTI3MTc=","name":"static_challenges","full_name":"CoopTang/static_challenges","private":false,"owner":{"login":"CoopTang","id":8922930,"node_id":"MDQ6VXNlcjg5MjI5MzA=","avatar_url":"https://avatars2.githubusercontent.com/u/8922930?v=4","gravatar_id":"","url":"https://api.github.com/users/CoopTang","html_url":"https://github.com/CoopTang","followers_url":"https://api.github.com/users/CoopTang/followers","following_url":"https://api.github.com/users/CoopTang/following{/other_user}","gists_url":"https://api.github.com/users/CoopTang/gists{/gist_id}","starred_url":"https://api.github.com/users/CoopTang/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/CoopTang/subscriptions","organizations_url":"https://api.github.com/users/CoopTang/orgs","repos_url":"https://api.github.com/users/CoopTang/repos","events_url":"https://api.github.com/users/CoopTang/events{/privacy}","received_events_url":"https://api.github.com/users/CoopTang/received_events","type":"User","site_admin":false},"html_url":"https://github.com/CoopTang/static_challenges","description":null,"fork":true,"url":"https://api.github.com/repos/CoopTang/static_challenges","forks_url":"https://api.github.com/repos/CoopTang/static_challenges/forks","keys_url":"https://api.github.com/repos/CoopTang/static_challenges/keys{/key_id}","collaborators_url":"https://api.github.com/repos/CoopTang/static_challenges/collaborators{/collaborator}","teams_url":"https://api.github.com/repos/CoopTang/static_challenges/teams","hooks_url":"https://api.github.com/repos/CoopTang/static_challenges/hooks","issue_events_url":"https://api.github.com/repos/CoopTang/static_challenges/issues/events{/number}","events_url":"https://api.github.com/repos/CoopTang/static_challenges/events","assignees_url":"https://api.github.com/repos/CoopTang/static_challenges/assignees{/user}","branches_url":"https://api.github.com/repos/CoopTang/static_challenges/branches{/branch}","tags_url":"https://api.github.com/repos/CoopTang/static_challenges/tags","blobs_url":"https://api.github.com/repos/CoopTang/static_challenges/git/blobs{/sha}","git_tags_url":"https://api.github.com/repos/CoopTang/static_challenges/git/tags{/sha}","git_refs_url":"https://api.github.com/repos/CoopTang/static_challenges/git/refs{/sha}","trees_url":"https://api.github.com/repos/CoopTang/static_challenges/git/trees{/sha}","statuses_url":"https://api.github.com/repos/CoopTang/static_challenges/statuses/{sha}","languages_url":"https://api.github.com/repos/CoopTang/static_challenges/languages","stargazers_url":"https://api.github.com/repos/CoopTang/static_challenges/stargazers","contributors_url":"https://api.github.com/repos/CoopTang/static_challenges/contributors","subscribers_url":"https://api.github.com/repos/CoopTang/static_challenges/subscribers","subscription_url":"https://api.github.com/repos/CoopTang/static_challenges/subscription","commits_url":"https://api.github.com/repos/CoopTang/static_challenges/commits{/sha}","git_commits_url":"https://api.github.com/repos/CoopTang/static_challenges/git/commits{/sha}","comments_url":"https://api.github.com/repos/CoopTang/static_challenges/comments{/number}","issue_comment_url":"https://api.github.com/repos/CoopTang/static_challenges/issues/comments{/number}","contents_url":"https://api.github.com/repos/CoopTang/static_challenges/contents/{+path}","compare_url":"https://api.github.com/repos/CoopTang/static_challenges/compare/{base}...{head}","merges_url":"https://api.github.com/repos/CoopTang/static_challenges/merges","archive_url":"https://api.github.com/repos/CoopTang/static_challenges/{archive_format}{/ref}","downloads_url":"https://api.github.com/repos/CoopTang/static_challenges/downloads","issues_url":"https://api.github.com/repos/CoopTang/static_challenges/issues{/number}","pulls_url":"https://api.github.com/repos/CoopTang/static_challenges/pulls{/number}","milestones_url":"https://api.github.com/repos/CoopTang/static_challenges/milestones{/number}","notifications_url":"https://api.github.com/repos/CoopTang/static_challenges/notifications{?since,all,participating}","labels_url":"https://api.github.com/repos/CoopTang/static_challenges/labels{/name}","releases_url":"https://api.github.com/repos/CoopTang/static_challenges/releases{/id}","deployments_url":"https://api.github.com/repos/CoopTang/static_challenges/deployments","created_at":"2019-09-27T15:46:11Z","updated_at":"2019-09-28T15:53:44Z","pushed_at":"2019-09-28T15:53:41Z","git_url":"git://github.com/CoopTang/static_challenges.git","ssh_url":"git@github.com:CoopTang/static_challenges.git","clone_url":"https://github.com/CoopTang/static_challenges.git","svn_url":"https://github.com/CoopTang/static_challenges","homepage":null,"size":46795,"stargazers_count":0,"watchers_count":0,"language":"HTML","has_issues":false,"has_projects":true,"has_downloads":true,"has_wiki":true,"has_pages":false,"forks_count":0,"mirror_url":null,"archived":false,"disabled":false,"open_issues_count":0,"license":null,"forks":0,"open_issues":0,"watchers":0,"default_branch":"master","permissions":{"admin":true,"push":true,"pull":true}}]'
     http_version: 
-  recorded_at: Wed, 11 Dec 2019 18:22:29 GMT
+  recorded_at: Wed, 11 Dec 2019 18:17:55 GMT
 - request:
     method: get
     uri: https://api.github.com/user/followers?access_token=<GITHUB_TESTING_TOKEN
@@ -556,7 +482,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 11 Dec 2019 18:22:30 GMT
+      - Wed, 11 Dec 2019 18:17:56 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -566,9 +492,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4992'
+      - '4824'
       X-Ratelimit-Reset:
-      - '1576092147'
+      - '1576090961'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -600,12 +526,12 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Github-Request-Id:
-      - D188:4BFB:5F2C63F:C947CDF:5DF133E6
+      - D11B:1ED8:20A2F9D:4E7D5AF:5DF132D4
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"mcat56","id":51488670,"node_id":"MDQ6VXNlcjUxNDg4Njcw","avatar_url":"https://avatars1.githubusercontent.com/u/51488670?v=4","gravatar_id":"","url":"https://api.github.com/users/mcat56","html_url":"https://github.com/mcat56","followers_url":"https://api.github.com/users/mcat56/followers","following_url":"https://api.github.com/users/mcat56/following{/other_user}","gists_url":"https://api.github.com/users/mcat56/gists{/gist_id}","starred_url":"https://api.github.com/users/mcat56/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mcat56/subscriptions","organizations_url":"https://api.github.com/users/mcat56/orgs","repos_url":"https://api.github.com/users/mcat56/repos","events_url":"https://api.github.com/users/mcat56/events{/privacy}","received_events_url":"https://api.github.com/users/mcat56/received_events","type":"User","site_admin":false},{"login":"cjkelling","id":51389815,"node_id":"MDQ6VXNlcjUxMzg5ODE1","avatar_url":"https://avatars2.githubusercontent.com/u/51389815?v=4","gravatar_id":"","url":"https://api.github.com/users/cjkelling","html_url":"https://github.com/cjkelling","followers_url":"https://api.github.com/users/cjkelling/followers","following_url":"https://api.github.com/users/cjkelling/following{/other_user}","gists_url":"https://api.github.com/users/cjkelling/gists{/gist_id}","starred_url":"https://api.github.com/users/cjkelling/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cjkelling/subscriptions","organizations_url":"https://api.github.com/users/cjkelling/orgs","repos_url":"https://api.github.com/users/cjkelling/repos","events_url":"https://api.github.com/users/cjkelling/events{/privacy}","received_events_url":"https://api.github.com/users/cjkelling/received_events","type":"User","site_admin":false}]'
     http_version: 
-  recorded_at: Wed, 11 Dec 2019 18:22:29 GMT
+  recorded_at: Wed, 11 Dec 2019 18:17:55 GMT
 - request:
     method: get
     uri: https://api.github.com/users/mcat56?access_token=<GITHUB_TESTING_TOKEN
@@ -627,7 +553,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 11 Dec 2019 18:22:31 GMT
+      - Wed, 11 Dec 2019 18:17:56 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -637,9 +563,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4991'
+      - '4823'
       X-Ratelimit-Reset:
-      - '1576092147'
+      - '1576090961'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -673,14 +599,14 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Github-Request-Id:
-      - D189:5060:732B931:E5B4994:5DF133E6
+      - D11C:4DDD:AC6732:19557C3:5DF132D4
     body:
       encoding: ASCII-8BIT
       string: '{"login":"mcat56","id":51488670,"node_id":"MDQ6VXNlcjUxNDg4Njcw","avatar_url":"https://avatars1.githubusercontent.com/u/51488670?v=4","gravatar_id":"","url":"https://api.github.com/users/mcat56","html_url":"https://github.com/mcat56","followers_url":"https://api.github.com/users/mcat56/followers","following_url":"https://api.github.com/users/mcat56/following{/other_user}","gists_url":"https://api.github.com/users/mcat56/gists{/gist_id}","starred_url":"https://api.github.com/users/mcat56/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mcat56/subscriptions","organizations_url":"https://api.github.com/users/mcat56/orgs","repos_url":"https://api.github.com/users/mcat56/repos","events_url":"https://api.github.com/users/mcat56/events{/privacy}","received_events_url":"https://api.github.com/users/mcat56/received_events","type":"User","site_admin":false,"name":"Mary
         Lang","company":"Turing School of Software Development","blog":"","location":"Denver,
         CO","email":"mcl86@cornell.edu","hireable":null,"bio":null,"public_repos":42,"public_gists":16,"followers":2,"following":9,"created_at":"2019-06-07T16:12:29Z","updated_at":"2019-12-10T17:16:26Z"}'
     http_version: 
-  recorded_at: Wed, 11 Dec 2019 18:22:30 GMT
+  recorded_at: Wed, 11 Dec 2019 18:17:55 GMT
 - request:
     method: get
     uri: https://api.github.com/users/cjkelling?access_token=<GITHUB_TESTING_TOKEN
@@ -702,7 +628,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 11 Dec 2019 18:22:31 GMT
+      - Wed, 11 Dec 2019 18:17:57 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -712,9 +638,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4990'
+      - '4822'
       X-Ratelimit-Reset:
-      - '1576092147'
+      - '1576090961'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -748,13 +674,13 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Github-Request-Id:
-      - D18A:4BFC:7AE54DD:F1C52E6:5DF133E7
+      - D11D:4DDE:DE5227:236ABB0:5DF132D5
     body:
       encoding: ASCII-8BIT
       string: '{"login":"cjkelling","id":51389815,"node_id":"MDQ6VXNlcjUxMzg5ODE1","avatar_url":"https://avatars2.githubusercontent.com/u/51389815?v=4","gravatar_id":"","url":"https://api.github.com/users/cjkelling","html_url":"https://github.com/cjkelling","followers_url":"https://api.github.com/users/cjkelling/followers","following_url":"https://api.github.com/users/cjkelling/following{/other_user}","gists_url":"https://api.github.com/users/cjkelling/gists{/gist_id}","starred_url":"https://api.github.com/users/cjkelling/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cjkelling/subscriptions","organizations_url":"https://api.github.com/users/cjkelling/orgs","repos_url":"https://api.github.com/users/cjkelling/repos","events_url":"https://api.github.com/users/cjkelling/events{/privacy}","received_events_url":"https://api.github.com/users/cjkelling/received_events","type":"User","site_admin":false,"name":"Christopher
         Kelling","company":null,"blog":"","location":null,"email":"cj.kelling88@gmail.com","hireable":null,"bio":null,"public_repos":35,"public_gists":4,"followers":1,"following":1,"created_at":"2019-06-05T01:20:23Z","updated_at":"2019-12-11T18:07:34Z"}'
     http_version: 
-  recorded_at: Wed, 11 Dec 2019 18:22:30 GMT
+  recorded_at: Wed, 11 Dec 2019 18:17:56 GMT
 - request:
     method: get
     uri: https://api.github.com/user/following?access_token=<GITHUB_TESTING_TOKEN
@@ -776,7 +702,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Wed, 11 Dec 2019 18:22:31 GMT
+      - Wed, 11 Dec 2019 18:17:57 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -786,9 +712,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '5000'
       X-Ratelimit-Remaining:
-      - '4989'
+      - '4821'
       X-Ratelimit-Reset:
-      - '1576092147'
+      - '1576090961'
       Cache-Control:
       - private, max-age=60, s-maxage=60
       Vary:
@@ -820,10 +746,10 @@ http_interactions:
       Content-Security-Policy:
       - default-src 'none'
       X-Github-Request-Id:
-      - D18B:5661:5A8CB04:C046B84:5DF133E7
+      - D11E:60D7:14AD81D:361751C:5DF132D5
     body:
       encoding: ASCII-8BIT
       string: '[{"login":"cjkelling","id":51389815,"node_id":"MDQ6VXNlcjUxMzg5ODE1","avatar_url":"https://avatars2.githubusercontent.com/u/51389815?v=4","gravatar_id":"","url":"https://api.github.com/users/cjkelling","html_url":"https://github.com/cjkelling","followers_url":"https://api.github.com/users/cjkelling/followers","following_url":"https://api.github.com/users/cjkelling/following{/other_user}","gists_url":"https://api.github.com/users/cjkelling/gists{/gist_id}","starred_url":"https://api.github.com/users/cjkelling/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/cjkelling/subscriptions","organizations_url":"https://api.github.com/users/cjkelling/orgs","repos_url":"https://api.github.com/users/cjkelling/repos","events_url":"https://api.github.com/users/cjkelling/events{/privacy}","received_events_url":"https://api.github.com/users/cjkelling/received_events","type":"User","site_admin":false}]'
     http_version: 
-  recorded_at: Wed, 11 Dec 2019 18:22:30 GMT
+  recorded_at: Wed, 11 Dec 2019 18:17:56 GMT
 recorded_with: VCR 4.0.0
