@@ -4,7 +4,7 @@ class InviteController < ApplicationController
   def new; end
 
   def create
-    response = GithubService.get_user(ENV['GITHUB_TESTING_TOKEN'], params[:github_handle])
+    response = GithubService.get_user(current_user.token, params[:github_handle])
     invitation = EmailInvitation.new(current_user.first_name, response)
 
     if invitation.email
