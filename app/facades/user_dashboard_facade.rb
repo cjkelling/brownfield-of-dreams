@@ -2,6 +2,7 @@ class UserDashboardFacade
   attr_reader :user_first_name,
               :user_last_name,
               :user_email,
+              :user_status,
               :user_github_repos,
               :user_github_followers,
               :user_github_following
@@ -11,6 +12,7 @@ class UserDashboardFacade
     @user_last_name        = user.last_name
     @user_email            = user.email
     @user_token            = user.token
+    @user_status           = user.confirmed ? 'Active' : 'Inactive'
     @user_github_repos     = []
     @user_github_followers = []
     @user_github_following = []
