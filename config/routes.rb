@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   get 'tags/:tag', to: 'welcome#index', as: :tag
   get '/register', to: 'users#new'
 
+  get '/confirm/:id', to: 'users#edit', as: 'confirm'
+
   get '/auth/github', as: 'github_connect'
   get '/auth/github/callback', to: 'users#update'
 

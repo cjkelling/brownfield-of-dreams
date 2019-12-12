@@ -10,12 +10,19 @@ class UsersController < ApplicationController
   def create
     user = User.create(user_params)
     if user.save
+      UserNotifierMailer.confirm(user).deliver_now
       session[:user_id] = user.id
+      flash[:notice] = 'A confirmation email was sent to the email you registered with. Please check your email!'
       redirect_to dashboard_path
     else
       flash[:error] = 'Email already exists'
       redirect_to new_user_path
     end
+  end
+
+  def edit
+    user = User.find(params[:id])
+    user.update(confirmed: true)
   end
 
   def update
