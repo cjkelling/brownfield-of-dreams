@@ -114,6 +114,6 @@ m3_tutorial.videos.create!(
   'position' => 6
 )
 
-User.create!(email: 'admin@example.com', first_name: 'Bossy', last_name: 'McBosserton', password: 'password', role: :admin)
-User.create!(email: 'cj.kelling88@gmail.com', first_name: 'C', last_name: 'McBoss', password: 'password', role: :default)
-User.create!(email: 'macoop2363@gmail.com', first_name: 'M', last_name: 'McBoss', password: 'password', role: :default)
+User.create!(email: 'admin@example.com', first_name: 'Bossy', last_name: 'McBosserton', password: 'password', confirmed: true, role: :admin)
+User.create!(email: 'cj.kelling88@gmail.com', first_name: 'C', last_name: 'McBoss', password: 'password', confirmed: true, role: :default)
+User.create!(email: 'macoop2363@gmail.com', first_name: 'M', last_name: 'McBoss', password: 'password', confirmed: true, role: :default)
