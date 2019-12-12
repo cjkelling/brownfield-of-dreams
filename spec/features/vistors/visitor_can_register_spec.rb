@@ -32,6 +32,8 @@ describe 'vister can create an account', :js do
     expect(page).to have_content(email)
     expect(page).to have_content(first_name)
     expect(page).to have_content(last_name)
+    expect(page).to have_content('Inactive')
+    expect(page).to have_content('A confirmation email was sent to the email you registered with. Please check your email!')
     expect(page).to_not have_content('Sign In')
   end
 
